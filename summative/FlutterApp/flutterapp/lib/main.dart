@@ -38,8 +38,8 @@ class _LifeExpectancyPageState extends State<LifeExpectancyPage> {
 
   // Function to make the POST request
   Future<void> _makePrediction() async {
-    final url =
-        Uri.parse('http://10.0.2.2:8080/predict'); // Replace with your API URL
+    final url = Uri.parse(
+        'https://life-expectancy-c830.onrender.com/predict'); // Replace with your API URL
 
     // Prepare the data for the API request
     Map<String, dynamic> data = {
